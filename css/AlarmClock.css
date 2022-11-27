@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body,
+.container,
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 100vh;
+    background-color: #4a98f7;
+}
+
+.container {
+    width: 450px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+h1,
+.container {
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.container .content {
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid rgb(207, 197, 197);  */
+    padding:5px ;
+}
+
+.container .content .disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.content .controls {
+    
+    border: 1px solid rgb(87, 80, 80);
+    width: calc(100% / 2 - 5px);
+    border-radius: 5px;
+    padding: 0;
+    
+}
+
+.content .controls  select {
+    
+    outline: 0;
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.container button {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    background-color: #4a98f7;
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}

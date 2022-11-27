@@ -1,0 +1,60 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
+@import url("./font/Roboto-Black.ttf");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'noto sans Arabic', Tahoma;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container .info :where(h1 , ){
+    font-family: " ./font/Roboto-Black.ttf";
+}
+
+.container form {
+
+    margin: 15px 0 25px;
+}
+
+.container form :where(input, button) {
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.container form input{
+    border: 1px solid #999;
+} 
+.container form button{
+    background-color:blueviolet ;
+    color: #fff;
+}
+.container .qr-code{
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.hidden{
+    display: none;
+}
